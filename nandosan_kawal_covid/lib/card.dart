@@ -14,7 +14,12 @@ class CardApp extends StatelessWidget {
           body: Container(
             margin: EdgeInsets.all(10),
             child: ListView(
-              children: <Widget>[CardWidget("POSITIF", "4000000")],
+              children: <Widget>[
+                CardWidget("POSITIF", "4000000"),
+                CardWidget("Sembuh", "4000000"),
+                CardWidget("Meninggal", "4000000"),
+                CardWidget("DIRAWAT", "4000000"),
+              ],
             ),
           ),
         ),
